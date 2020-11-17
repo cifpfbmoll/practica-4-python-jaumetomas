@@ -1,0 +1,13 @@
+#P4E4
+#Pida al usuario 3 números y un cuarto número, compruebe que este último es divisor de los tres primeros.
+primero= float(input("Dame el primer numero "))
+segundo= float(input("Dame el segundo numero "))
+tercero = float(input("Dame el tercer numero "))
+cuarto = float (input("Dame el ultimo numero para saber si es divisor de los 3 anteriores "))
+if (primero % cuarto == 0):
+    print ("El" ,cuarto, "es divisor de" ,primero)
+if (segundo % cuarto == 0):
+    print ("El" ,cuarto, "es divisor de" ,segundo)
+if (tercero % cuarto == 0):
+    print ("El" ,cuarto, "es divisor de" ,tercero)
+  
