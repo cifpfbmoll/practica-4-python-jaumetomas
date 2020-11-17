@@ -1,0 +1,15 @@
+#Pida al usuario si quiere calcular el area de un triangulo o cuadrado y pida los datos segun que caso y muestre el resultado.
+#p4e3
+a = input (" Escribe una c para cuadrado o t para triangulo ")
+if (a== "c"):
+    print ("Has elegido cuadrado")
+    base = int(input("Escribe la base "))
+    altura = int(input( "Escribe la altura "))
+    print ("La base es,",base*altura)
+elif (a== "t"):
+    print ("Has elegido triangulo")
+    base =int(input( "Introduce la base"))
+    altura = int(input( "Introduce la altura"))
+    print ( "El area es, ", (base*altura)/2)
+else:
+    print ("ERROR")
