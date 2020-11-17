@@ -1,0 +1,14 @@
+#P4E2
+#Pida al usuario 5 números y diga si estos estaban en orden decreciente, 	creciente o desordenados.
+
+primero= int(input("Dame el primer numero"))
+segundo = int(input("Dame el segundo numero"))
+tercero= int(input("Dame el tercer numero"))
+cuarto =int(input("Dame el cuarto numero"))
+quinto= int(input("Dame el quinto numero"))
+if (primero > segundo, segundo > tercero, tercero > cuarto, cuarto > quinto):
+    print (" Estan en orden decreciente")
+elif (primero < segundo, segundo < tercero, tercero < cuarto, cuarto < quinto):
+    print ("Estan en orden creciente")
+else :
+    print ("Estan desordenados")
