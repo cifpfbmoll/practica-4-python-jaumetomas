@@ -1,0 +1,33 @@
+
+  #P4E1
+#Pida al usuario 5 números y diga cuál es el mayor y cuál el menor.
+
+a = float(input ( "Introduzca el primer numero "))
+b = float (input ( "Introduzca el segundo numero "))
+c = float (input ( "Introduzca el tercer numero "))
+d = float (input ( "Introduzca el cuarto numero "))
+e = float (input ("Introduzca el quinto numero "))
+maximo=minimo=a
+if (b > maximo):
+  maximo = b
+else:
+  if (b < minimo):
+    minimo = b
+if (c > maximo):
+  maximo = c
+else:
+  if (c < minimo):
+    minimo = c
+if (d > maximo):
+  maximo = d
+else:
+  if (d < minimo):
+    minimo = d
+if (e > maximo):
+  maximo = e
+else:
+  if (e < minimo):
+    minimo = e
+
+  print (maximo, "Es el mayor y" ,minimo, "el menor")
+  
